@@ -1,83 +1,90 @@
-# ResearchSphere 🚀
+# 🚀 Research Sphere
 
-**ResearchSphere** is an interactive, deep-research assistant built with the Perplexity Sonar API. It enables users to explore any topic in depth with **well-structured, research-driven insights**, **trusted citations**, and **engaging follow-up questions**—all through a polished, user-friendly interface.
-
----
-
-## 🌟 Features
-
-- **In-depth insights:**  
-  Every answer is thorough, structured with subheadings, bullet points, and practical explanations.
-
-- **Trusted citations (APA-style):**  
-  Each insight is backed by reputable sources for credibility and transparency.
-
-- **Follow-up questions:**  
-  Interactive expanders with mini-answers for deeper exploration—like having a conversation with a research assistant!
-
-- **Auto-suggestions for questions:**  
-  As you type, previously explored questions pop up to spark curiosity and streamline your exploration.
-
-- **Sleek UI:**  
-  Beautifully designed with a full-width header banner and custom CSS for a professional look.
+Empowering your curiosity through trusted research and interactive exploration!  
+Built for the **Perplexity Sonar API Hackathon**.
 
 ---
 
-## ⚙️ How It Works
+## 🌟 What is Research Sphere?
 
-1. **Type your question** in the search bar.  
-2. **Explore structured, research-backed answers** with citations.  
-3. **Dive deeper** with carefully crafted follow-up questions.  
-4. **Revisit past questions** via auto-suggestions.
-
----
-
-## 🛠️ Technologies
-
-- **Frontend:** [Streamlit](https://streamlit.io/)  
-- **Backend:** Python  
-- **API:** [Perplexity Sonar API](https://docs.perplexity.ai/docs/sonar-api) for real-time, research-powered insights.  
-- **Parallel API calls:** Boosted performance using Python’s `concurrent.futures`.  
-- **Auto-suggestions:** Stored in a local JSON file (`previous_questions.json`) to personalize future research.
+**Research Sphere** is a streamlined, interactive web app that leverages Perplexity’s Sonar API to help you:
+- **Dive deep into any research topic** with real-time insights and trusted citations.
+- **Explore nuanced, advanced follow-up questions** that encourage deeper learning.
+- **Stay focused on your topic** with a clean and intuitive interface.
 
 ---
 
-## 💡 How We Used Perplexity’s Sonar API
+## ⚙️ Features
 
-- **`ask_sonar`**: Generates a **deep, structured answer** to any user question.  
-- **`get_follow_up_questions`**: Returns **5 carefully crafted follow-up questions** with brief explanations, encouraging deeper exploration.  
-- **Real-time trusted citations** ensure transparency and accuracy for every insight.
-
----
-
-## 🎥 Demo Video
-
-👉 [YouTube/Vimeo link here – add after recording]
+- 🔍 **Smart Search** – Enter any research topic and get thorough, well-cited answers in seconds.
+- 📚 **Trusted Citations** – APA-style links for every insight, ensuring reliability.
+- 🤔 **Curiosity Path** – Interactive accordion-style exploration with mini-answers to **advanced follow-up questions**.
+- 🎨 **Clean Design** – Minimal distractions, professional style, and real-time updates.
 
 ---
 
+## 🛠️ Built With
+
+- **Streamlit** – For rapid frontend and backend deployment.
+- **Sonar API** – Powers the real-time research, citations, and deep follow-up questions.
+- **Python** – Efficient API handling and data processing.
+- **Custom CSS** – For a polished look and brand identity.
+
+---
+
+## 🚀 How It Works
+
+1️⃣ Enter your research question in the search bar.  
+2️⃣ Click **Explore!** – the app will:  
+   - Fetch insights with citations from the Sonar API.  
+   - Display **advanced follow-up questions** as interactive expanders.  
+3️⃣ Dive into trusted, research-backed answers!
+
+**Example topic:**  
+> _“How does the ripeness of a banana affect its nutritional value and digestibility?”_
+
+---
+
+## 📂 Repository & Testing
+
+- **Private repo link**: [To be included in the Devpost submission]  
+- **Judges access**: Repo shared with:
+  - james.liounis@perplexity.ai
+  - sathvik@perplexity.ai
+  - devrel@perplexity.ai
+  - testing@devpost.com
 
 ---
 
 ## 🚀 Submission Category
 
-- **Category:** Best Deep Research Project  
+- **Category:** Best Deep Research Project
+
+---
+
+## 🔑 API Key Handling
+
+The app requires a **Sonar API key** (`SONAR_API_KEY`) for data access.  
+For security:
+- The key is stored as an **environment variable** in deployment (`.env` file, excluded in `.gitignore`).
+- It is **never** hardcoded or pushed to this repository.
 
 ---
 
 ## 📝 Additional Info
 
-- **Original work** created entirely during the hackathon period.  
+- 💡 **Original work** created entirely during the hackathon period.  
 - No external funding, no IP conflicts.  
-- **All code, UI, and user-facing elements** were developed specifically for this project.  
+- All code, UI, and user-facing elements developed specifically for this project.
 
 ---
 
-## 🔧 How to Run Locally
+## 🎥 Demo Video
 
-```bash
-git clone [YOUR_PRIVATE_REPO_URL]
-cd ResearchSphere
-pip install -r requirements.txt
-export SONAR_API_KEY="YOUR_API_KEY"
-streamlit run app.py
+[**Link to demonstration video** – to be added for submission]  
+*(max 3 min, showing real-time search, citations, follow-ups, and UI polish)*
+
+---
+
+Created by **Naga Renuka**, powered by **Perplexity’s Sonar API**.  
+**Explore. Learn. Stay Curious.** 🌟

@@ -43,10 +43,6 @@ question = st.text_input("Enter your research topic or question:")
 suggestions = [q for q in previous_questions if question.lower() in q.lower()]
 
 # Show suggestions if matches found
-if suggestions and question:
-    selected_suggestion = st.selectbox("Did you mean one of these?", suggestions, key="suggested_q")
-    if selected_suggestion:
-        question = selected_suggestion
 
 # Explore button logic
 if st.button("Explore!"):
