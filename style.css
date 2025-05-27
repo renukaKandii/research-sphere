@@ -1,0 +1,70 @@
+/* Overall background and font */
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Banner header styling */
+  .header-banner {
+    background: url('logo.png') no-repeat center center;
+    background-size: cover;
+    height: 150px;  /* Adjust as needed */
+    width: 100vw;   /* Full viewport width */
+    margin-left: calc(-50vw + 50%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings styling */
+  h1, h2, h3, .stSubheader {
+    color: #174ea6;
+    font-weight: 700;
+  }
+  
+  /* Buttons styling */
+  .stButton>button {
+    background-color: #1a73e8;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .stButton>button:hover {
+    background-color: #174ea6;
+  }
+  
+  /* Sidebar styling */
+  .css-1d391kg {
+    background-color: #ffffff !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Expanders styling */
+  .stExpander {
+    border: 1px solid #cfcfcf !important;
+    border-radius: 8px !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .stExpanderHeader {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Optional: link styling for citations */
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Optional: remove padding/margin for full-width layout (can remove if you want centered content) */
+  .css-18e3th9 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
