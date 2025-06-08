@@ -45,16 +45,6 @@ Built for the **Perplexity Sonar API Hackathon**.
 
 ---
 
-## 📂 Repository & Testing
-
-- **Private repo link**: [To be included in the Devpost submission]  
-- **Judges access**: Repo shared with:
-  - james.liounis@perplexity.ai
-  - sathvik@perplexity.ai
-  - devrel@perplexity.ai
-  - testing@devpost.com
-
----
 
 ## 🚀 Submission Category
 
@@ -68,21 +58,6 @@ The app requires a **Sonar API key** (`SONAR_API_KEY`) for data access.
 For security:
 - The key is stored as an **environment variable** in deployment (`.env` file, excluded in `.gitignore`).
 - It is **never** hardcoded or pushed to this repository.
-
----
-
-## 📝 Additional Info
-
-- 💡 **Original work** created entirely during the hackathon period.  
-- No external funding, no IP conflicts.  
-- All code, UI, and user-facing elements developed specifically for this project.
-
----
-
-## 🎥 Demo Video
-
-[**Link to demonstration video** – to be added for submission]  
-*(max 3 min, showing real-time search, citations, follow-ups, and UI polish)*
 
 ---
 
